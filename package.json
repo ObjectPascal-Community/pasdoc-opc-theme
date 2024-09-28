@@ -1,0 +1,23 @@
+{
+  "name": "pasdoc-opc-theme",
+  "version": "1.0.0",
+  "description": "A modern and sleek PasDoc theme for the 21st century",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "over:ObjectPascal-Community/pasdoc-opc-theme.git"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": "Object Pascal Community",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.79.4",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

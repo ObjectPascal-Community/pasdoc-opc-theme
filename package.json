@@ -7,24 +7,34 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "eslint .",
       "format": "prettier --write '**/*.{js,svelte,scss}'",
-      "stylelint": "stylelint '**/*.scss'"
+      "stylelint": "stylelint '**/*.scss'",
+      "build": "webpack",
+      "build:prod": "webpack --mode production",
+      "watch": "webpack --watch"
    },
    "repository": {
       "type": "git",
       "url": "https://github.com/ObjectPascal-Community/pasdoc-opc-theme.git"
    },
    "keywords": [
-      "theme"
+      "theme",
+      "css",
+      "pasdoc",
+      "documentation"
    ],
    "author": "Object Pascal Community",
    "license": "MIT",
+   "homepage": "https://github.com/ObjectPascal-Community/pasdoc-opc-theme",
+   "browserslist": "> 0.5%, last 2 versions, Firefox ESR",
    "devDependencies": {
       "css-loader": "^7.1.2",
+      "css-minimizer-webpack-plugin": "^7.0.0",
       "eslint": "^9.11.1",
       "eslint-config-prettier": "^9.1.0",
       "eslint-plugin-prettier": "^5.2.1",
       "eslint-plugin-svelte": "^2.44.1",
       "file-loader": "^6.2.0",
+      "mini-css-extract-plugin": "^2.9.1",
       "prettier": "^3.3.3",
       "prettier-plugin-svelte": "^3.2.7",
       "sanitize.css": "^13.0.0",

@@ -34,6 +34,7 @@
       "eslint-plugin-prettier": "^5.2.1",
       "eslint-plugin-svelte": "^2.44.1",
       "file-loader": "^6.2.0",
+      "mathsass": "^0.11.0",
       "mini-css-extract-plugin": "^2.9.1",
       "prettier": "^3.3.3",
       "prettier-plugin-svelte": "^3.2.7",
